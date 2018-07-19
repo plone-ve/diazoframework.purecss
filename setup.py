@@ -7,7 +7,7 @@ setup(name='diazoframework.purecss',
       version=version,
       description="A Diazo framework implementation for Pure CSS",
       long_description=open("README.rst").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+                       open("CHANGES.txt").read(),
       # Get more strings from
       # https://pypi.org/pypi?:action=list_classifiers
       classifiers=[

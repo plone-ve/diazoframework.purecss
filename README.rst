@@ -6,11 +6,13 @@ diazoframework.purecss
 Introduction
 ============
 
-``diazoframework.purecss`` package provides the diazo framework implementation 
-of the `PureCSS framework`_ using the **theming** and **packaging** 
-features available for create Diazo_ theme using `plone.app.theming`_. 
+``diazoframework.purecss`` package provides the diazo framework implementation of the 
+`PureCSS framework`_ using the **theming** and **packaging** features available in the 
+`diazoframework.plone`_ core package for create `Diazo`_ theme using `plone.app.theming`_.
 
-They are useful for creating themes based on `PureCSS framework`_. 
+They are useful for creating themes based on `PureCSS framework`_. For documentation on the 
+framework itself, check the website.
+
 A Diazo framework should provide the framework resources and diazo rules to reuse 
 and add to in a Diazo theme.
 
@@ -19,9 +21,9 @@ Requirements
 ============
 
 - From the Plone 4.1.x To the Plone 4.3 latest version (https://plone.org/download)
-- The ``plone.app.theming`` package (*You will need enable it via ``Add-ons`` control 
+- The ``plone.app.theming`` package (*You will need enable it via "Add-ons" control 
   panel to use this package*)
-- The ``diazoframework.plone`` package (*You will need enable it via ``buildout`` 
+- The ``diazoframework.plone`` package (*You will need enable it via "buildout" 
   configuration to use this package*)
 
 
@@ -39,7 +41,6 @@ Features
 
 Installation
 ============
-
 
 This add-on can be installed has any other add-ons. It's doesn't have any profile, so 
 just add it to your Zope instance, for doing that please the follow steps: 
@@ -78,7 +79,6 @@ The resources of this framework can be reached through
 ``diazoframework.purecss/diazoframework/purecss/framework/`` 
 directory with following resources files:
 
-
 ::
 
     _ css
@@ -109,12 +109,13 @@ directory with following resources files:
 Current themes
 ==============
 
-The `diazoframework.purecss <https://github.com/TH-code/diazoframework.purecss>`_ package have the following themes:
+The `diazoframework.purecss`_ package have the following themes:
 
-- `diazotheme.purecss`_.
+`diazotheme.purecss`_.
+    which contains themes that can both be used as starters for your own *PureCSS* based theme.
 
 
-For more frameworks see: `diazoframework.plone <https://github.com/TH-code/diazoframework.plone#current-frameworks>`_
+For more frameworks see: the `diazoframework.plone`_ package.
 
 
 Contribute
@@ -128,6 +129,8 @@ License
 =======
 
 The project is licensed under the GPLv2.
+
+The *PureCSS framework* is licensed under the BSD license.
 
 
 Credits
@@ -145,7 +148,8 @@ You can find an updated list of package contributors on https://github.com/TH-co
 
 
 .. _`PureCSS framework`: http://purecss.io/
-.. _`diazoframework.purecss`: https://github.com/TH-code/diazoframework.purecss
-.. _`diazotheme.purecss`: https://github.com/TH-code/diazotheme.purecss
+.. _`diazoframework.plone`: https://github.com/collective/diazoframework.plone#current-frameworks
 .. _`Diazo`: http://diazo.org
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
+.. _`diazoframework.purecss`: https://github.com/TH-code/diazoframework.purecss
+.. _`diazotheme.purecss`: https://github.com/TH-code/diazotheme.purecss
